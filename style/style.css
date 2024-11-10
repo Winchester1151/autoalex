@@ -1,0 +1,175 @@
+body { 
+    margin: 0;
+    font-family: 'Montserrat' serif;
+    background-image: url('https://wallpapers.com/images/hd/night-city-background-3840-x-2160-c0nvkigwkqpj0av9.jpg');
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: brown;
+    padding: 10px;
+}
+header h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 110px;
+    font-family: 'Montserrat' serif;
+}
+.navi a {
+    color: #fff;
+    font-family: 'Montserrat' serif;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
+header a:hover {
+    background-color: darkred;
+    border-radius: 10px;
+} 
+h2 {
+    font-family: 'Montserrat' serif;
+    text-decoration: none;
+}
+h2:cover {
+    background-color: darkred;
+    border-radius: 10px;
+}
+.logo {
+    width: 250px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    }
+
+
+section {
+    padding: 20px;
+}
+.car-card {
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    background: linear-gradient(270.81deg,  #8B3000 30.52%,  firebrick 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    font-size: 18px;
+}
+.about {
+    font-family: 'Monserat', sans-serif;
+    text-align: center;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.images img {
+    width: 30%;
+    border: 2px solid black;
+}
+.car-card:hover {
+    transform: scale(1.05);
+}
+.price {
+    font-weight: bolder;
+    font-size: 20px;
+}
+section button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color:#45a049;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+section button:hover {
+    background-color: limegreen;
+    transform: scale(1.1);
+}
+
+
+footer {
+    background-color:#772424;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat' serif;
+    margin-bottom: 0px;
+    padding: 2px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+footer h1 {
+    margin-bottom: 5px;
+}
+.form input {
+    border: none;
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    color: #333;
+}
+
+.form input::placeholder {
+    color: #b0b0b0;
+}
+
+.form button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+.form button:hover {
+    background-color: #c40812;
+}
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    margin-right: auto;
+}
+.pp {
+    color: #fff;
+    margin-top: 20px;
+    margin-right: 520px;
+    font-size: 14px;
+}
